@@ -1,6 +1,5 @@
 
 // package to import features and functionality which is use to make functional android app
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {  // entry point of the program i can avoid void
@@ -13,11 +12,13 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});   // const constructor
 
   @override    // override build method with return type Widget
-  Widget Build(BuildContext context) {
+  Widget build(BuildContext context) {
     return MaterialApp(
-
+      debugShowCheckedModeBanner: false,  // it disable the debug left-top red banner
+      theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.grey)),
     );
   }
+
 
 
 }

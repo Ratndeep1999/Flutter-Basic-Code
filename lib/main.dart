@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,  // it disable the debug left-top red banner
       theme: ThemeData(     // It is use to give theme to the app
           colorScheme: ColorScheme.fromSeed(
-              seedColor: Colors.grey
+              seedColor: Colors.grey.shade800
           ),
       ),
       home: BoilerPlate(),

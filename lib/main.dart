@@ -13,19 +13,26 @@ class MyApp extends StatelessWidget {
 
   @override    // override build method with return type Widget
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp(    // This is root widget for my application
       debugShowCheckedModeBanner: false,  // it disable the debug left-top red banner
-      theme: ThemeData(
+      theme: ThemeData(     // It is use to give theme to the app
           colorScheme: ColorScheme.fromSeed(
               seedColor: Colors.grey
           ),
       ),
-      // home: BoilerPlate(),
+      home: BoilerPlate(),
     );
   }
 
-
-
-
 }
 
+// This is my main application
+class BoilerPlate extends StatelessWidget {
+  const BoilerPlate({super.key});   // constructor of BoilerPlate class
+
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    throw UnimplementedError();
+  }
+}

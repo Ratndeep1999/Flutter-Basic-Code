@@ -16,4 +16,4 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 
-![App Output](assets/images/flutter_boiler_plate.png)
+![App Output](lib/Assets/images/flutter_boiler_plate.png)

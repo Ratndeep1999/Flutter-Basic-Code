@@ -39,6 +39,7 @@ class BoilerPlate extends StatelessWidget {
         title: Text("Boiler Plate "),
         actions: [],    // here I can pass list of widgets
         backgroundColor: Colors.black12,  // It provides background color to appBar
+        // leading: IconButton(onPressed: () {}, icon: Icon(Icons.three_g_mobiledata_outlined)),
       ),   // It is appbar which appear on top of app to use title:, actionButton: etc
       body: SafeArea(child: Text("Hello Ratndeep......!"),
       ),

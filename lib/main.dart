@@ -15,10 +15,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,  // it disable the debug left-top red banner
-      theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.grey)),
+      theme: ThemeData(
+          colorScheme: ColorScheme.fromSeed(
+              seedColor: Colors.grey
+          ),
+      ),
+      // home: BoilerPlate(),
     );
   }
 
 
 
+
 }
+

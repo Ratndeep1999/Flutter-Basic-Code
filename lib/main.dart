@@ -32,7 +32,11 @@ class BoilerPlate extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    // Scaffold use to provide structure for flutter app, body: and appbar: is the main properties
+    return Scaffold(
+      appBar: AppBar(),
+      body: SafeArea(child: Text("Hello Ratndeep......!"),
+      ),
+    );
   }
 }

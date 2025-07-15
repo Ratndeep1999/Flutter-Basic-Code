@@ -35,8 +35,11 @@ class BoilerPlate extends StatelessWidget {
     // Scaffold use to provide structure for flutter app, body: and appbar: is the main properties
     return Scaffold(
       appBar: AppBar(
+        // title that appear in appbar
         title: Text("Boiler Plate "),
-      ),   // It is appbar which appear on top of app to use title:, floatingActionButton: etc
+        actions: [],    // here I can pass list of widgets
+        backgroundColor: Colors.black12,  // It provides background color to appBar
+      ),   // It is appbar which appear on top of app to use title:, actionButton: etc
       body: SafeArea(child: Text("Hello Ratndeep......!"),
       ),
     );

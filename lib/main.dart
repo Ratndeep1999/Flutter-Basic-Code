@@ -44,7 +44,8 @@ class BoilerPlate extends StatelessWidget {
         leading: IconButton(onPressed: () {}, icon: Icon(Icons.menu),),   // it is Three vertical lines icon
 
       ),   // It is appbar which appear on top of app to use title:, actionButton: etc
-      body: SafeArea(child: Text("Hello Ratndeep......!"),
+      body: SafeArea(
+        child: Text("Hello Ratndeep......!"),  // It is dynamic, It ensure to appear content of it's child class inside safe area boundaries it avoid overlapping
       ),
     );
   }

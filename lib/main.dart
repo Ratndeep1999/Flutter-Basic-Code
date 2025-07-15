@@ -41,7 +41,7 @@ class BoilerPlate extends StatelessWidget {
           IconButton(onPressed: (){}, icon: Icon(Icons.notifications))  // IconButton at right corner of appBar
         ],    // here I can pass list of widgets
         backgroundColor: Colors.black12,  // It provides background color to appBar
-        leading: IconButton(onPressed: () {}, icon: Icon(Icons.three_g_mobiledata_outlined),),
+        leading: IconButton(onPressed: () {}, icon: Icon(Icons.menu),),   // it is Three vertical lines icon
 
       ),   // It is appbar which appear on top of app to use title:, actionButton: etc
       body: SafeArea(child: Text("Hello Ratndeep......!"),
